@@ -15,6 +15,7 @@ const int Ns = 64;//number of samples
 float t;//time
 int sampling_interval;
 byte samples[Ns];
+const float no_flow_int = 1.5;//amplitude of pumping in no flow
 const float pi = 3.1415926;
 
 const int buttonPin = 2;  // the number of the pushbutton pin
